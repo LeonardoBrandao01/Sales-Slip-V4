@@ -14,7 +14,5 @@ public class DebitCard implements PaymentMethod {
 	}
 	
 	@Override
-	public String toString() {
-		return "Cartão de Débito";
-	}
+	public String toString() {return "Cartão de Débito";}
 }

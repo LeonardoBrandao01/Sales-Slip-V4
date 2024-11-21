@@ -10,8 +10,7 @@ public class DataBase {
 	private static Map<String, PaymentMethod> payments =
 			new HashMap<String, PaymentMethod>();
 
-	private static Map<String, StockItem> item =
-			new HashMap<String, StockItem>();
+
 	
 	static {
 		products.put("at", new String[] {"Arroz Tatiana" , "30"});
